@@ -14,8 +14,8 @@
     (title ESP32-GATEWAY)
     (date 2019-12-17)
     (rev G)
-    (company "OLIMEX Ltd.")
-    (comment 1 https://www.olimex.com)
+    (company "VADACTRO Technologies India Pvt.Pvt.Ltd")
+    (comment 1 https://www.vadactro.com)
   )
 
   (layers
@@ -317,7 +317,7 @@
     (add_net "Net-(USB-UART1-Pad4)")
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5DF89685)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5DF89685)
     (at 86.614 116.459 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -353,7 +353,7 @@
     )
   )
 
-  (module OLIMEX_Cases-FP:ESP-WROOM-32_MODULE locked (layer F.Cu) (tedit 5C94C27D) (tstamp 5813949A)
+  (module VADACTRO_Cases-FP:ESP-WROOM-32_MODULE locked (layer F.Cu) (tedit 5C94C27D) (tstamp 5813949A)
     (at 80.01 79.883)
     (descr "A powerful, generic Wi-Fi+BT+BLE MCU module")
     (tags https://www.espressif.com/sites/default/files/documentation/esp32-wrover_datasheet_en.pdf)
@@ -512,7 +512,7 @@
     )
   )
 
-  (module OLIMEX_Jumpers-FP:SJ (layer B.Cu) (tedit 5552F0F7) (tstamp 5CBF0666)
+  (module VADACTRO_Jumpers-FP:SJ (layer B.Cu) (tedit 5552F0F7) (tstamp 5CBF0666)
     (at 118.364 86.106 90)
     (descr "SOLDER JUMPER")
     (tags "SOLDER JUMPER")
@@ -560,7 +560,7 @@
       (net 1 +5V) (solder_mask_margin 0.0508) (solder_paste_margin -0.0508) (clearance 0.0508))
   )
 
-  (module OLIMEX_Connectors-FP:RJLBC-060TC1 locked (layer F.Cu) (tedit 5CCAC67C) (tstamp 581CB165)
+  (module VADACTRO_Connectors-FP:RJLBC-060TC1 locked (layer F.Cu) (tedit 5CCAC67C) (tstamp 581CB165)
     (at 101.6 78.359 180)
     (descr "LAN TRAF & CONNECTOR")
     (tags "LAN TRAF & CONNECTOR")
@@ -675,7 +675,7 @@
     )
   )
 
-  (module OLIMEX_Connectors-FP:TFC-WXCP11-08-LF locked (layer F.Cu) (tedit 5CBF0359) (tstamp 5818AAA3)
+  (module VADACTRO_Connectors-FP:TFC-WXCP11-08-LF locked (layer F.Cu) (tedit 5CBF0359) (tstamp 5818AAA3)
     (at 76.327 111.125 180)
     (descr "THIS PACKAGE IS CREATED BY NIKOLAY ACCORDING TO TFC-WXCP11-08-LF.PDF.")
     (tags "THIS PACKAGE IS CREATED BY NIKOLAY ACCORDING TO TFC-WXCP11-08-LF.PDF.")
@@ -753,9 +753,9 @@
     )
   )
 
-  (module OLIMEX_LOGOs-FP:OLIMEX_LOGO_TB locked (layer F.Cu) (tedit 5530FAE4) (tstamp 5AF44AE3)
+  (module VADACTRO_LOGOs-FP:VADACTRO_LOGO_TB locked (layer F.Cu) (tedit 5530FAE4) (tstamp 5AF44AE3)
     (at 88.519 124.333)
-    (fp_text reference Logo-OlimexBIG (at -2.4003 -3.0607) (layer F.Fab) hide
+    (fp_text reference Logo-vadactroBIG (at -2.4003 -3.0607) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "" (at -1.6637 3.7084) (layer F.Fab) hide
@@ -831,7 +831,7 @@
     (fp_line (start 3.4163 -1.8288) (end 4.7879 -1.8288) (layer F.SilkS) (width 0.1))
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5AF40217)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5AF40217)
     (at 89.789 97.536 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -867,7 +867,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:L_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB6CB) (tstamp 5AF40248)
+  (module VADACTRO_RLC-FP:L_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB6CB) (tstamp 5AF40248)
     (at 86.106 101.981)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -893,7 +893,7 @@
       (net 59 +3.3VLAN) (solder_mask_margin 0.0508) (clearance 0.0508))
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 5AF43A73)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 5AF43A73)
     (at 89.788999 99.06)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -929,7 +929,7 @@
     )
   )
 
-  (module OLIMEX_Transistors-FP:SOT23 (layer F.Cu) (tedit 5C6BBAAC) (tstamp 5AF41151)
+  (module VADACTRO_Transistors-FP:SOT23 (layer F.Cu) (tedit 5C6BBAAC) (tstamp 5AF41151)
     (at 88.392 95.123 180)
     (path /5B19B3A8)
     (attr smd)
@@ -964,7 +964,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5AF40274)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5AF40274)
     (at 89.788999 100.584)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -1000,7 +1000,7 @@
     )
   )
 
-  (module OLIMEX_Transistors-FP:SOT23 (layer F.Cu) (tedit 5C6BBAAC) (tstamp 5AF401E1)
+  (module VADACTRO_Transistors-FP:SOT23 (layer F.Cu) (tedit 5C6BBAAC) (tstamp 5AF401E1)
     (at 89.662 103.505 90)
     (path /5B26369E)
     (attr smd)
@@ -1035,7 +1035,7 @@
     )
   )
 
-  (module "OLIMEX_Diodes-FP:DO214AA_1(K)-2(A)" (layer F.Cu) (tedit 5BD96E35) (tstamp 5965FA1F)
+  (module "VADACTRO_Diodes-FP:DO214AA_1(K)-2(A)" (layer F.Cu) (tedit 5BD96E35) (tstamp 5965FA1F)
     (at 115.824 109.982 180)
     (path /580DC038)
     (attr smd)
@@ -1075,7 +1075,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 596594E1)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 596594E1)
     (at 86.487 104.648 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -1111,7 +1111,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 596594CE)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 596594CE)
     (at 81.026 119.888 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -1147,7 +1147,7 @@
     )
   )
 
-  (module OLIMEX_LOGOs-FP:OLIMEX_LOGO_TB locked (layer B.Cu) (tedit 5530FAE4) (tstamp 590319B3)
+  (module VADACTRO_LOGOs-FP:OLIMEX_LOGO_TB locked (layer B.Cu) (tedit 5530FAE4) (tstamp 590319B3)
     (at 79.121 114.427 180)
     (fp_text reference Logo-OLimeX (at -2.4003 3.0607 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -1225,7 +1225,7 @@
     (fp_line (start 3.4163 1.8288) (end 4.7879 1.8288) (layer B.SilkS) (width 0.1))
   )
 
-  (module OLIMEX_LOGOs-FP:LOGO_ROHS_1 locked (layer B.Cu) (tedit 553E19D4) (tstamp 590313A4)
+  (module VADACTRO_LOGOs-FP:LOGO_ROHS_1 locked (layer B.Cu) (tedit 553E19D4) (tstamp 590313A4)
     (at 106.934 109.601 180)
     (fp_text reference Sign_RoHS (at 3.29692 7.10184 180) (layer B.Fab) hide
       (effects (font (size 2 2) (thickness 0.5)) (justify mirror))
@@ -1430,7 +1430,7 @@
     )
   )
 
-  (module OLIMEX_LOGOs-FP:LOGO_RECYCLEBIN_1 locked (layer B.Cu) (tedit 552CE91B) (tstamp 59030EAC)
+  (module VADACTRO_LOGOs-FP:LOGO_RECYCLEBIN_1 locked (layer B.Cu) (tedit 552CE91B) (tstamp 59030EAC)
     (at 99.314 117.475 180)
     (fp_text reference Sign-RecyclBin (at 2.11 7.12 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -1485,7 +1485,7 @@
     (fp_circle (center 3.302 1.905) (end 3.429 1.905) (layer B.SilkS) (width 0.127))
   )
 
-  (module OLIMEX_LOGOs-FP:LOGO_PBFREE locked (layer B.Cu) (tedit 553A2F23) (tstamp 59030B2C)
+  (module VADACTRO_LOGOs-FP:LOGO_PBFREE locked (layer B.Cu) (tedit 553A2F23) (tstamp 59030B2C)
     (at 117.602 107.315)
     (fp_text reference Sign_Pb-Free (at -0.2794 3.52552) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -1500,7 +1500,7 @@
     )
   )
 
-  (module OLIMEX_LOGOs-FP:LOGO_OPENHARDWARE_8x8 locked (layer B.Cu) (tedit 55534E4A) (tstamp 59030713)
+  (module VADACTRO_LOGOs-FP:LOGO_OPENHARDWARE_8x8 locked (layer B.Cu) (tedit 55534E4A) (tstamp 59030713)
     (at 78.486 106.045 180)
     (fp_text reference Logo-OSHW (at 0 -0.5 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -1625,7 +1625,7 @@
     )
   )
 
-  (module OLIMEX_LOGOs-FP:LOGO_ANTISTATIC_1 locked (layer B.Cu) (tedit 552E49BF) (tstamp 590302AD)
+  (module VADACTRO_LOGOs-FP:LOGO_ANTISTATIC_1 locked (layer B.Cu) (tedit 552E49BF) (tstamp 590302AD)
     (at 115.189 117.348 180)
     (fp_text reference Sign-Antistatic (at 0 0 180) (layer B.Fab) hide
       (effects (font (size 1.524 1.524) (thickness 0.15)) (justify mirror))
@@ -1664,7 +1664,7 @@
     (fp_line (start 3.556 7.112) (end 0 0) (layer B.SilkS) (width 0.254))
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 59019141)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 59019141)
     (at 117.856 82.677)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -1700,7 +1700,7 @@
     )
   )
 
-  (module OLIMEX_LEDs-FP:LED_0603_KA (layer F.Cu) (tedit 5C6BBE55) (tstamp 5901912E)
+  (module VADACTRO_LEDs-FP:LED_0603_KA (layer F.Cu) (tedit 5C6BBE55) (tstamp 5901912E)
     (at 117.856 80.899 180)
     (descr CCCCC)
     (tags "resistor 0603")
@@ -1749,7 +1749,7 @@
     )
   )
 
-  (module OLIMEX_Connectors-FP:HN1x20 locked (layer F.Cu) (tedit 5C8A5940) (tstamp 5900D626)
+  (module VADACTRO_Connectors-FP:HN1x20 locked (layer F.Cu) (tedit 5C8A5940) (tstamp 5900D626)
     (at 94.996 128.016)
     (path /5900BB50)
     (solder_mask_margin 0.0508)
@@ -1975,7 +1975,7 @@
       (net 56 /GPI36))
   )
 
-  (module OLIMEX_Connectors-FP:USB-MICRO_MISB-SWMM-5B_LF locked (layer F.Cu) (tedit 5DAD54FE) (tstamp 58FFE493)
+  (module VADACTRO_Connectors-FP:USB-MICRO_MISB-SWMM-5B_LF locked (layer F.Cu) (tedit 5DAD54FE) (tstamp 58FFE493)
     (at 116.967 95.25)
     (path /58D440A7)
     (attr smd)
@@ -2053,7 +2053,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5DF8999E)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5DF8999E)
     (at 87.249 119.761 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2089,7 +2089,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB2B0) (tstamp 58DE80A3)
+  (module VADACTRO_RLC-FP:C_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB2B0) (tstamp 58DE80A3)
     (at 116.967 114.935 180)
     (path /58E558F6)
     (attr smd)
@@ -2123,7 +2123,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB2B0) (tstamp 58DE8091)
+  (module VADACTRO_RLC-FP:C_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB2B0) (tstamp 58DE8091)
     (at 116.967 112.903 180)
     (path /58E5245C)
     (attr smd)
@@ -2157,7 +2157,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58DCA880)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58DCA880)
     (at 114.173 115.57 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2193,7 +2193,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58DCA86E)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58DCA86E)
     (at 114.173 118.872 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2229,7 +2229,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58DCA85C)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58DCA85C)
     (at 117.856 87.122 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2265,7 +2265,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58DD6E8B)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58DD6E8B)
     (at 82.296 98.806)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2296,7 +2296,7 @@
       (net 64 /GPI34\BUT1) (solder_mask_margin 0.0508))
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58DD6E78)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58DD6E78)
     (at 82.296 97.282 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2332,7 +2332,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58DD6E52)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58DD6E52)
     (at 94.869 118.745 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2368,7 +2368,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58DD6E3F)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58DD6E3F)
     (at 113.792 103.886 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2404,7 +2404,7 @@
     )
   )
 
-  (module OLIMEX_Diodes-FP:SMA-KA (layer F.Cu) (tedit 5BD96F32) (tstamp 58DD6D7B)
+  (module VADACTRO_Diodes-FP:SMA-KA (layer F.Cu) (tedit 5BD96F32) (tstamp 58DD6D7B)
     (at 115.57 106.68 180)
     (path /58DA405C)
     (attr smd)
@@ -2433,7 +2433,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58DD6CE3)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58DD6CE3)
     (at 109.855 117.475)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2469,7 +2469,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58DD6CD0)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58DD6CD0)
     (at 94.869 121.158 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2505,7 +2505,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58DD6CBD)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58DD6CBD)
     (at 110.363 114.3)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2541,7 +2541,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58DD6CAA)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58DD6CAA)
     (at 94.869 114.3 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2577,7 +2577,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_1206_5MIL_DWS_ISO (layer F.Cu) (tedit 5C6BB2CC) (tstamp 58220AFA)
+  (module VADACTRO_RLC-FP:C_1206_5MIL_DWS_ISO (layer F.Cu) (tedit 5C6BB2CC) (tstamp 58220AFA)
     (at 92.075 77.597 90)
     (path /58266265)
     (attr smd)
@@ -2605,7 +2605,7 @@
       (net 26 "Net-(C19-Pad1)") (solder_mask_margin 0.0508))
   )
 
-  (module OLIMEX_RLC-FP:C_1206_5MIL_DWS_ISO (layer F.Cu) (tedit 5C6BB2CC) (tstamp 58220AE8)
+  (module VADACTRO_RLC-FP:C_1206_5MIL_DWS_ISO (layer F.Cu) (tedit 5C6BB2CC) (tstamp 58220AE8)
     (at 92.075 85.217 270)
     (path /58265411)
     (attr smd)
@@ -2638,7 +2638,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5818AAFC)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5818AAFC)
     (at 86.233 110.871 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2674,7 +2674,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58139351)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58139351)
     (at 94.869 116.967 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2710,7 +2710,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5813933E)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5813933E)
     (at 109.855 118.999)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2746,7 +2746,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5813932B)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5813932B)
     (at 93.599 93.091 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2782,7 +2782,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58139318)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58139318)
     (at 105.918 100.203)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2818,7 +2818,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 581392DF)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 581392DF)
     (at 101.727 124.5235)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2854,7 +2854,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 581392B9)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 581392B9)
     (at 100.076 91.694 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2890,7 +2890,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 581392A6)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 581392A6)
     (at 102.362 91.694 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2926,7 +2926,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58139293)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58139293)
     (at 96.266 91.694 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2962,7 +2962,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5813925A)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5813925A)
     (at 98.552 91.694 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2998,7 +2998,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58139247)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58139247)
     (at 111.633 76.962 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3034,7 +3034,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58139234)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58139234)
     (at 91.694 72.39 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3070,7 +3070,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5DF8A1B2)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5DF8A1B2)
     (at 82.296 100.584 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3106,7 +3106,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5DF8A220)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5DF8A220)
     (at 82.296 103.886 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3142,7 +3142,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58139154)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 58139154)
     (at 82.296 95.758)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3178,7 +3178,7 @@
     )
   )
 
-  (module OLIMEX_LEDs-FP:LED_0603_KA (layer F.Cu) (tedit 5C6BBE55) (tstamp 58139023)
+  (module VADACTRO_LEDs-FP:LED_0603_KA (layer F.Cu) (tedit 5C6BBE55) (tstamp 58139023)
     (at 117.856 85.344 180)
     (descr CCCCC)
     (tags "resistor 0603")
@@ -3227,7 +3227,7 @@
     )
   )
 
-  (module OLIMEX_Other-FP:TESTPAD_40-ROUND (layer F.Cu) (tedit 5B5073A8) (tstamp 58138E1A)
+  (module VADACTRO_Other-FP:TESTPAD_40-ROUND (layer F.Cu) (tedit 5B5073A8) (tstamp 58138E1A)
     (at 118.872 77.978)
     (path /580DBDA3)
     (attr virtual)
@@ -3241,7 +3241,7 @@
       (net 2 GND) (solder_mask_margin 0.0508))
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C97)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C97)
     (at 105.918 98.679 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3272,7 +3272,7 @@
       (net 2 GND) (solder_mask_margin 0.0508) (clearance 0.0508))
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C84)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C84)
     (at 93.599 98.298 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3308,7 +3308,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C71)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C71)
     (at 93.599 99.822 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3344,7 +3344,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C5E)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C5E)
     (at 93.599 94.869 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3380,7 +3380,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C4B)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C4B)
     (at 104.521 94.234)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3416,7 +3416,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C38)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C38)
     (at 97.79 104.013 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3452,7 +3452,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C25)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C25)
     (at 109.474 103.886 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3488,7 +3488,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C12)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138C12)
     (at 106.426 91.694 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3524,7 +3524,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB2B0) (tstamp 58138BFF)
+  (module VADACTRO_RLC-FP:C_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB2B0) (tstamp 58138BFF)
     (at 86.233 112.649)
     (path /581D0018)
     (attr smd)
@@ -3558,7 +3558,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138BEC)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138BEC)
     (at 104.14 104.013 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3594,7 +3594,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138BD9)
+  (module VADACTRO_RLC-FP:C_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BB2A1) (tstamp 58138BD9)
     (at 105.664 104.013 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -3630,7 +3630,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:C_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB2B0) (tstamp 58138B52)
+  (module VADACTRO_RLC-FP:C_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB2B0) (tstamp 58138B52)
     (at 112.395 123.063 90)
     (path /58FA3191)
     (attr smd)
@@ -3664,7 +3664,7 @@
     )
   )
 
-  (module OLIMEX_Jumpers-FP:SJ (layer B.Cu) (tedit 5552F0F7) (tstamp 5CC1BC98)
+  (module VADACTRO_Jumpers-FP:SJ (layer B.Cu) (tedit 5552F0F7) (tstamp 5CC1BC98)
     (at 105.7275 100.5205 90)
     (descr "SOLDER JUMPER")
     (tags "SOLDER JUMPER")
@@ -3712,7 +3712,7 @@
       (net 2 GND) (solder_mask_margin 0.0508) (solder_paste_margin -0.0508) (clearance 0.0508))
   )
 
-  (module "OLIMEX_IC-FP:QFN32_EP(33)_5.00x5.00x0.90mm_Pitch_0.50mm" (layer F.Cu) (tedit 5C6BC89B) (tstamp 5813951E)
+  (module "VADACTRO_IC-FP:QFN32_EP(33)_5.00x5.00x0.90mm_Pitch_0.50mm" (layer F.Cu) (tedit 5C6BC89B) (tstamp 5813951E)
     (at 99.949 98.044 270)
     (path /58160809)
     (autoplace_cost90 10)
@@ -3900,7 +3900,7 @@
     )
   )
 
-  (module OLIMEX_Other-FP:Mounting_hole_Shield_3.3mm locked (layer F.Cu) (tedit 58132682) (tstamp 58132FAE)
+  (module VADACTRO_Other-FP:Mounting_hole_Shield_3.3mm locked (layer F.Cu) (tedit 58132682) (tstamp 58132FAE)
     (at 73.152 122.301)
     (path /5900EC6E)
     (fp_text reference MH1 (at 0.254 -4.191) (layer F.SilkS) hide
@@ -3929,7 +3929,7 @@
       (net 2 GND))
   )
 
-  (module OLIMEX_Other-FP:Mounting_hole_Shield_3.3mm locked (layer F.Cu) (tedit 58132682) (tstamp 58FEFFDF)
+  (module VADACTRO_Other-FP:Mounting_hole_Shield_3.3mm locked (layer F.Cu) (tedit 58132682) (tstamp 58FEFFDF)
     (at 116.332 71.12)
     (path /5900F0F3)
     (fp_text reference MH2 (at 0.254 -4.191) (layer F.SilkS) hide
@@ -3958,7 +3958,7 @@
       (net 2 GND))
   )
 
-  (module OLIMEX_IC-FP:SSOP-20W (layer F.Cu) (tedit 5C6BC7F1) (tstamp 58DD6F61)
+  (module VADACTRO_IC-FP:SSOP-20W (layer F.Cu) (tedit 5C6BC7F1) (tstamp 58DD6F61)
     (at 101.727 119.761 90)
     (descr "SSOP 20 pins")
     (tags "CMS SSOP SMD")
@@ -4025,7 +4025,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:L_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB6CB) (tstamp 58138F18)
+  (module VADACTRO_RLC-FP:L_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB6CB) (tstamp 58138F18)
     (at 86.233 114.554 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -4056,7 +4056,7 @@
     )
   )
 
-  (module OLIMEX_Transistors-FP:SOT23 (layer F.Cu) (tedit 5C6BBAAC) (tstamp 5DF898D3)
+  (module VADACTRO_Transistors-FP:SOT23 (layer F.Cu) (tedit 5C6BBAAC) (tstamp 5DF898D3)
     (at 90.805 119.761)
     (path /58D74BC0)
     (attr smd)
@@ -4091,7 +4091,7 @@
     )
   )
 
-  (module OLIMEX_Transistors-FP:SOT23 (layer F.Cu) (tedit 5C6BBAAC) (tstamp 58DD6DF3)
+  (module VADACTRO_Transistors-FP:SOT23 (layer F.Cu) (tedit 5C6BBAAC) (tstamp 58DD6DF3)
     (at 90.932 116.205)
     (path /58D6B1BC)
     (attr smd)
@@ -4126,7 +4126,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:CD32 (layer F.Cu) (tedit 5CCACF57) (tstamp 58138EFC)
+  (module VADACTRO_RLC-FP:CD32 (layer F.Cu) (tedit 5CCACF57) (tstamp 58138EFC)
     (at 115.443 123.444 270)
     (descr "ROTATED COUNTERCLOCKWISE 90")
     (tags "ROTATED COUNTERCLOCKWISE 90")
@@ -4156,7 +4156,7 @@
     )
   )
 
-  (module OLIMEX_Regulators-FP:SOT-23-5 (layer F.Cu) (tedit 5C6BB779) (tstamp 58139458)
+  (module VADACTRO_Regulators-FP:SOT-23-5 (layer F.Cu) (tedit 5C6BB779) (tstamp 58139458)
     (at 117.221 118.364 270)
     (path /580E129E)
     (attr smd)
@@ -4187,7 +4187,7 @@
     )
   )
 
-  (module OLIMEX_Transistors-FP:SOT23 (layer F.Cu) (tedit 5C6BBAAC) (tstamp 58DD6D8E)
+  (module VADACTRO_Transistors-FP:SOT23 (layer F.Cu) (tedit 5C6BBAAC) (tstamp 58DD6D8E)
     (at 117.348 102.997 270)
     (path /58D9F018)
     (attr smd)
@@ -4222,7 +4222,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:L_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB6CB) (tstamp 58138F0A)
+  (module VADACTRO_RLC-FP:L_0805_5MIL_DWS (layer F.Cu) (tedit 5C6BB6CB) (tstamp 58138F0A)
     (at 107.569 103.632 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -4253,7 +4253,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_MATRIX_4 (layer F.Cu) (tedit 5C6BC70A) (tstamp 58139433)
+  (module VADACTRO_RLC-FP:R_MATRIX_4 (layer F.Cu) (tedit 5C6BC70A) (tstamp 58139433)
     (at 100.965 104.013 180)
     (path /58191F56)
     (attr smd)
@@ -4328,7 +4328,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_MATRIX_4 (layer F.Cu) (tedit 5C6BC70A) (tstamp 581393FD)
+  (module VADACTRO_RLC-FP:R_MATRIX_4 (layer F.Cu) (tedit 5C6BC70A) (tstamp 581393FD)
     (at 94.615 104.013)
     (path /5818206D)
     (attr smd)
@@ -4403,7 +4403,7 @@
     )
   )
 
-  (module OLIMEX_Crystal-FP:Q_49U3HMS locked (layer F.Cu) (tedit 5BD95B39) (tstamp 58DD6DE0)
+  (module VADACTRO_Crystal-FP:Q_49U3HMS locked (layer F.Cu) (tedit 5BD95B39) (tstamp 58DD6DE0)
     (at 102.616 112.395)
     (path /58D6DBCE)
     (attr smd)
@@ -4440,7 +4440,7 @@
     )
   )
 
-  (module "OLIMEX_Buttons-FP:T1107A(6x3,8x2,5MM)" (layer F.Cu) (tedit 5CBDB98A) (tstamp 5818E530)
+  (module "VADACTRO_Buttons-FP:T1107A(6x3,8x2,5MM)" (layer F.Cu) (tedit 5CBDB98A) (tstamp 5818E530)
     (at 75.184 102.997 180)
     (path /580F1A95)
     (solder_mask_margin 0.0508)
@@ -4471,7 +4471,7 @@
     )
   )
 
-  (module "OLIMEX_Buttons-FP:T1107A(6x3,8x2,5MM)" (layer F.Cu) (tedit 5CBDB98A) (tstamp 5818E523)
+  (module "VADACTRO_Buttons-FP:T1107A(6x3,8x2,5MM)" (layer F.Cu) (tedit 5CBDB98A) (tstamp 5818E523)
     (at 75.184 97.155 180)
     (path /580F02B2)
     (solder_mask_margin 0.0508)
@@ -4502,7 +4502,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5CC028E2)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5CC028E2)
     (at 86.487 107.95)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -4533,7 +4533,7 @@
       (net 83 /GPIO4\HS2_DATA1) (solder_mask_margin 0.0508))
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5CC02EDF)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5CC02EDF)
     (at 81.026 118.364 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -4564,7 +4564,7 @@
       (net 92 /GPIO13\HS2_DATA3) (solder_mask_margin 0.0508))
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5CBF00FA)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5CBF00FA)
     (at 77.851 118.364 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -4595,7 +4595,7 @@
       (net 91 /GPIO12\HS2_DATA2) (solder_mask_margin 0.0508))
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5CC06797)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5CC06797)
     (at 77.851 119.888 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -4631,7 +4631,7 @@
     )
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5CBF0168)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5CBF0168)
     (at 86.487 106.172 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -4667,7 +4667,7 @@
     )
   )
 
-  (module OLIMEX_Diodes-FP:SOT23-3 (layer F.Cu) (tedit 5C7009B8) (tstamp 5CBF0813)
+  (module VADACTRO_Diodes-FP:SOT23-3 (layer F.Cu) (tedit 5C7009B8) (tstamp 5CBF0813)
     (at 86.233 99.568 180)
     (descr "ROTATED COUNTERCLOCKWISE 90 BY PENKO TO BA AS IS IN THE REAL REEL")
     (tags "ROTATED COUNTERCLOCKWISE 90 BY PENKO TO BA AS IS IN THE REAL REEL")
@@ -4726,7 +4726,7 @@
     )
   )
 
-  (module OLIMEX_Diodes-FP:SOD-123_1C-2A_KA (layer F.Cu) (tedit 5D26C633) (tstamp 5CBF0824)
+  (module VADACTRO_Diodes-FP:SOD-123_1C-2A_KA (layer F.Cu) (tedit 5D26C633) (tstamp 5CBF0824)
     (at 107.442 122.809 90)
     (path /5CE42FE6)
     (attr smd)
@@ -4768,7 +4768,7 @@
     )
   )
 
-  (module OLIMEX_Diodes-FP:SOD-123_1C-2A_KA (layer F.Cu) (tedit 5D26C633) (tstamp 5CBF0835)
+  (module VADACTRO_Diodes-FP:SOD-123_1C-2A_KA (layer F.Cu) (tedit 5D26C633) (tstamp 5CBF0835)
     (at 109.474 122.809 270)
     (path /5CE507D3)
     (attr smd)
@@ -4810,7 +4810,7 @@
     )
   )
 
-  (module OLIMEX_Other-FP:Fiducial1x3 (layer F.Cu) (tedit 5950B94F) (tstamp 5CBF6F40)
+  (module VADACTRO_Other-FP:Fiducial1x3 (layer F.Cu) (tedit 5950B94F) (tstamp 5CBF6F40)
     (at 118.872 124.079)
     (path /5CBF8B54)
     (attr smd)
@@ -4825,7 +4825,7 @@
       (net 77 "Net-(FID2-PadFid1)") (solder_mask_margin 0.127) (clearance 1.016) (zone_connect 0))
   )
 
-  (module OLIMEX_Other-FP:Fiducial1x3 (layer F.Cu) (tedit 5950B94F) (tstamp 5CBF6F5F)
+  (module VADACTRO_Other-FP:Fiducial1x3 (layer F.Cu) (tedit 5950B94F) (tstamp 5CBF6F5F)
     (at 77.47 124.079)
     (path /5CBF79D5)
     (attr smd)
@@ -4840,7 +4840,7 @@
       (net 79 "Net-(FID1-PadFid1)") (solder_mask_margin 0.127) (clearance 1.016) (zone_connect 0))
   )
 
-  (module OLIMEX_Other-FP:Fiducial1x3 (layer F.Cu) (tedit 5950B94F) (tstamp 5CBF483B)
+  (module VADACTRO_Other-FP:Fiducial1x3 (layer F.Cu) (tedit 5950B94F) (tstamp 5CBF483B)
     (at 118.872 75.057)
     (path /5CBF923B)
     (attr smd)
@@ -4855,7 +4855,7 @@
       (net 78 "Net-(FID3-PadFid1)") (solder_mask_margin 0.127) (clearance 1.016) (zone_connect 0))
   )
 
-  (module OLIMEX_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5CBFC5AD)
+  (module VADACTRO_RLC-FP:R_0603_5MIL_DWS (layer F.Cu) (tedit 5C6BBC43) (tstamp 5CBFC5AD)
     (at 104.775 91.694 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
